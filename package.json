@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/CHATALOT1/frog-bot/issues"
   },
-  "homepage": "https://github.com/CHATALOT1/frog-bot#readme"
+  "homepage": "https://github.com/CHATALOT1/frog-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
