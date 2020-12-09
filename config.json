@@ -1,3 +1,4 @@
 {
-    "prefix": ["frog ", "f!"]
+    "prefix": ["frog ", "f!"],
+    "maxSavedLogs": 5
 }
