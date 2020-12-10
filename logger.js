@@ -27,7 +27,7 @@ function prepareLogDir(dirName) {
   }
 
   // Remove excess logs
-  if (files.length >= maxSavedLogs) {
+  if (maxSavedLogs > 0 && files.length >= maxSavedLogs) {
     let fileNamesTimestamps = new Map();
     for (const fileName of files) {
       const fileDate = new Date(
